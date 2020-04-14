@@ -18,8 +18,6 @@ export const translations = {
   },
 };
 
-const translationOptions = {
-  ur: { isRTL: true },
-};
+const strings = addTranslationsMulti(translations);
 
-export default addTranslationsMulti(translations, translationOptions);
+export default strings;

@@ -10,7 +10,7 @@ export const translations = {
   es: {
     goToScreen2: 'Ir a la Pantalla Número 2',
     hello: '¡Hola!',
-    onScreen1: 'Estás en la pantalla número uno',
+    onScreen1: 'Estás en la pantalla número 1',
     screen1: 'Pantalla 1',
   },
   ur: {
@@ -21,8 +21,6 @@ export const translations = {
   },
 };
 
-const translationOptions = {
-  ur: { isRTL: true },
-};
+const strings = addTranslationsMulti(translations);
 
-export default addTranslationsMulti(translations, translationOptions);
+export default strings;
